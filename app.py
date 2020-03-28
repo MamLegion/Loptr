@@ -22,7 +22,8 @@ def test_url_for():
     print(url_for('username_page', username='MamLegion'))
     return "Test Page"
 
-sh@app.route('/insert', methods=['POST'])
+
+@app.route('/insert', methods=['POST'])
 def post():
     info = request.json
     name = info['name']
