@@ -4,4 +4,4 @@ Git has a mutable index called stage.
 桜
 Git branch.
 Git tracks change of files.
-Creating a new branch is quick & simple.
+Creating a new branch is quick OR simple.
